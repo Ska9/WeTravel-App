@@ -1,0 +1,344 @@
+/*Background*/
+
+.particles {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background: linear-gradient(89deg, #8d0712 0%, #111111 100%); /* w3c */
+  }
+
+/*Call to action */
+
+.call-to-action {
+    margin-top: 70px;
+}
+
+.logo-call-to-action {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+.caption-call-to-action {
+    text-align: center;
+    margin-top: 12px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: white;
+}
+
+.btn-call-to-action {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    width: 170px;
+    border-radius: 100px;
+    font-family:'DM Sans';
+    font-size: 20px;
+    font-weight:bold ;
+    color:black ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.section1 {
+    background-color: #0c111e;
+    height: 600px;
+}
+
+.features {
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 240px auto;
+}
+
+.features .box {
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(400px - 30px);
+    background-color: #c40f1e;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.features .box .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0c111e;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.features .box:hover .icon {
+    top: 30px;
+    left: calc(50% - 12%);
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+}
+
+.features .box .icon .fas {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50% - -50%);
+    font-size: 80px;
+    transition: 0.5s;
+    color: white;
+}
+
+.features .box:hover .icon .fas {
+    font-size: 30px;
+    /*left: 40%;
+    top: 30%;*/
+}
+
+.features .box .content {
+    position: absolute;
+    top: 100%;
+    height: calc(100% - 100%);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-align: justify;
+}
+
+.features .box:hover .content {
+    top: 150px;
+}
+
+.features .box .content h3 {
+    margin:0 0 15px;
+    padding: 0;
+    color: white;
+    font-size: 24px;
+}
+
+.features .box .content p {
+    margin:0 0 10;
+    padding: 0;
+    color: white;
+    font-size: 15px;
+}
+
+
+
+
+.restaurants-section {
+    background-image: url(../img/Restaurants.jpg);
+    background-size: 100% ;
+    height: 450px;
+}
+
+.restaurants-section .restaurants-section-title {
+    padding-top: 300px;
+    text-align: center;
+    font-family: 'DM Sans';
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.restaurants-container {
+    padding-top: 50px;
+    padding-left: 50px;
+    line-height: 50px;
+    background-color: white;
+    height: 550px;
+}
+
+.gridlist {
+    float: left;
+}
+
+.caption-restaurants-call-to-action {
+    text-align: justify;
+    margin-left: 800px;
+    padding-right: 100px;
+    font-size: 20px;
+}
+
+.btn-restaurants-call-to-action {
+    
+    border-radius: 20px;
+    border: 2px solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.xop-section {
+	max-width: 2000px;
+	margin: 0 auto;
+    padding: 6% 2%;
+    background-color: white;
+}
+
+.xop-grid {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.xop-grid:after {
+	clear: both;
+}
+
+.xop-grid:after, .xop-box:before {
+	content: '';
+	display: table;
+}
+
+.xop-grid li {
+	width: 328px;
+	height: 328px;
+	display: inline-block;
+	margin: 20px;
+}
+
+.xop-grid li {
+	width: 500px;
+	height: 500px;
+	display: inline-block;
+	margin: 20px;
+}
+
+.xop-box {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	cursor: pointer;
+    border-radius: 10px;
+    -webkit-transition: 0.3s ease-in-out, 
+    -webkit-transform 0.3s ease-in-out;
+	-moz-transition:  0.3s ease-in-out, 
+    -moz-transform 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out, 
+    transform 0.3s ease-in-out, ;
+}
+
+.xop-box:hover {
+	transform: scale(1.05); 
+}
+
+.xop-img-1 {
+	background: /*linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url(../img/Camping.jpg);
+}
+
+.xop-img-2 {
+	background: /*linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url(../img/Quad.jpg);
+}
+
+.xop-img-3 {
+	background: /*linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url(../img/Events.jpg);
+}
+
+.xop-img-4 {
+	background: /*linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url(../img/Museum.jpg);
+}
+
+.xop-info {
+	position: absolute;
+	width: inherit;
+	height: inherit;
+}
+
+.xop-info h3 {
+	font-family: 'Lauthan', cursive;
+	font-weight: 400;
+	color: #fff;
+	font-size: 50px;
+	margin: 0 30px;
+	padding: 100px 0 0 0;
+	line-height: 1.5;
+}
+
+.xop-info p {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #fff;
+	padding: 10px 150px;
+	margin: 0 30px;
+	font-size: 14px;
+	line-height: 2;
+}
+
+.activities-section  {
+    font-style: 'DM Sans';
+    margin-left: 600px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+#activities {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

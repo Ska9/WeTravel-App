@@ -1,0 +1,90 @@
+* {
+    font-family: 'DM Sans';
+    margin : 0px;
+    padding : 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.sidebar {
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background-color: #1e0e62;
+    left: -300px;
+    transition: all .5s;
+}
+
+.sidebar  header {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    user-select: none;
+    background-color: #1e0e62;
+    font-weight: bold;
+}
+
+.sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 30px;
+    box-sizing: border-box;
+    /*border-bottom: 2px solid #00a4f5;*/
+    transition: .4s;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sidebar li:hover a {
+    padding-left: 50px;
+    background-color: #00a4f5;
+}
+
+.sidebar ul a img {
+    margin-right: 16px;
+    width: 30px;
+}
+
+#check {
+    display: none;
+}
+
+label #burger, label #cancel {
+    position: absolute;
+    cursor: pointer;
+}
+
+label #burger {
+    color: black;
+    left: 40px;
+    top:25px;
+    font-size: 35px;
+    transition: all .5s
+}
+
+label #cancel {
+    z-index: 1111;
+    color: black;
+    left: 250px;
+    top: 25px;
+    font-size: 20px;
+    color: white;
+    transition: all .5s ease;
+}
+
+#check:checked ~ .sidebar {
+    left: 0px;
+    top: 0px;
+}
+
+
+#check:checked ~ label #burger {
+    opacity: 0;
+    pointer-events: none;
+    left: 250px;
+}

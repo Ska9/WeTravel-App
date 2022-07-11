@@ -1,0 +1,13 @@
+{
+  "parserOptions": {
+      "ecmaVersion": 6
+  },
+  "rules": {
+    "implicit-arrow-linebreak": 0,
+    "react/destructuring-assignment": 1
+  },
+  "env": {
+      "node": true
+  },
+  "extends": "airbnb"
+}

@@ -1,0 +1,9 @@
+.form {
+    margin-top:100px ;
+    margin-left: 350px;
+    margin-right: 300px;
+}
+
+#check:checked ~ .form {
+    margin-left:500px;
+}

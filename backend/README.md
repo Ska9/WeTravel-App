@@ -1,0 +1,5 @@
+-npm run start 
+-npm run dbrollback // Rolls back the latest migration group
+-npm run prestart  // Runs all migrations that have not yet been runss
+-npm run seed // Seed files allow you to populate your database with test or seed data independent of your migration files.
+-knexfile.js generally contains all of the configuration for your database

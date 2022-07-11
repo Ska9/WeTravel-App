@@ -1,0 +1,25 @@
+.jumbotron {
+    margin-left: 300px;
+}
+
+.block-delete-btns {
+    float: right;
+    margin-right: 20px;
+}
+
+.block-btn {
+    margin-right: 10px;
+    width: 100px;
+}
+
+.admin-search-users {
+    margin-left: 320px;
+}
+
+.admin-users-table {
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+
+
