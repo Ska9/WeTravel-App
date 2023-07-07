@@ -6,7 +6,6 @@ Web portal for tourism sector in Tunisia.
 
 ## Table of Contents
 - [Installation](#installation)
-- [Features](#features)
 
 ## Installation
 
