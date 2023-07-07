@@ -2,7 +2,7 @@
 
 Web portal for tourism sector in Tunisia.
 
-WETRAVEL APP.jpg
+![Project Image](WETRAVEL.jpg)
 
 ## Table of Contents
 - [Installation](#installation)
@@ -19,9 +19,5 @@ WETRAVEL APP.jpg
 
 4. npm start
    
-## Features
-
-List of the project's main features or highlights.
-
 
 
